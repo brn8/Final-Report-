@@ -1,0 +1,84 @@
+body{
+    background-image: linear-gradient(lightyellow, yellow);
+}
+
+h1 {
+  position:fixed;
+  bottom:300px;
+  left:5%;
+  font-family: Times;
+  text-align: center;
+  font-size: 50px;
+  background:white;
+  padding:25px;
+  border-radius: 25px;
+}
+
+h2 {
+  font-family: Times;
+  text-align: center;
+  font-size: 30px;
+}
+
+ol{
+  background-image: url('https://support.delta.chat/uploads/default/original/1X/768ded5ffbef90faa338761be1c5633d91cc35e3.jpeg');
+  position: fixed;
+  padding-top: 25px;
+  left: 350px;
+  height: 420px;
+  width: 50%;
+  font-size: 19px;
+  font-family: Arial;
+  overflow: scroll;
+}
+
+input[id=input]:focus {
+  background-color: lightblue;
+}
+
+input[id=input]{
+  position: fixed;
+  bottom: 22px;
+  left: 360px;
+  width: 40%;
+  padding: 20px;
+}
+
+.googleButton{
+  position: fixed;
+  bottom: 20px;
+  left: 400px;
+  width: 15%;
+  height: 10%;
+}
+
+button{
+  position: fixed;
+  bottom: 22px;
+  left: 940px;
+  width: 10%;
+  padding: 20px;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.info{
+    position: fixed;
+    top: 22px;
+    left: 1120px;
+    width: 200px;
+    height: 580px;
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    border-style: groove;
+}
+
+#hi{
+  position:fixed;
+  left:1165px;
+  bottom: 100px;
+}
